@@ -15,9 +15,4 @@ public class LaptopService{
         Laptop newLaptopPrice = newLaptopPrice.setLaptopPrice(); 
         return Laptop;
     }
-
-    public Laptop getByLaptopId(int laptopId){
-        Laptop laptop;
-        if(laptop.getLaptopId()==laptopId)
-    }
 }
