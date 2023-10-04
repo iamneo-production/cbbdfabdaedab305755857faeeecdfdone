@@ -10,8 +10,11 @@ public class LaptopController{
     private ApiService laptopService;
     
     @PostMapping("/")
+    
 
-    @GetMapping("/laptop/{laptopId")
+    @GetMapping("/laptop /{laptopId")
 
-    @GetMapping("")
+    @GetMapping("/laptop")
+
+
 }
