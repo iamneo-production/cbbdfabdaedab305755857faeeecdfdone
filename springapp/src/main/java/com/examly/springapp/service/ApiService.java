@@ -11,8 +11,13 @@ public class LaptopService{
 
     public Laptop postLaptop(){
         Laptop newLaptopId = newLaptopId.setLaptopId(laptopId);
-
-
+        Laptop newLaptopBrand = newLaptopBrand.setLaptopBrand(laptopBrand);
+        Laptop newLaptopPrice = newLaptopPrice.setLaptopPrice(); 
+        return Laptop;
     }
 
+    public Laptop getByLaptopId(int laptopId){
+        Laptop laptop;
+        if(laptop.getLaptopId()==laptopId)
+    }
 }
